@@ -11,21 +11,20 @@ public class WrapperConversion {
 		float floatvalue=Float.parseFloat(value);
 		short shortvalue=Short.parseShort(value);
 		byte bytevalue=Byte.parseByte(value);
-		long longvalue=Long.parseLong(value);
-		//char charvalue=Character.parseCharacter(value);
+		long longvalue=Long.parseLong(value);	 
 		boolean booleanvalue=Boolean.parseBoolean(value);
 		
 		
 		
 	
 		System.out.println("String Value: "+value);
-		System.out.println("String Value: "+intvalue);
-		System.out.println("String Value: "+doublevalue);
-		System.out.println("String Value: "+floatvalue);
-		System.out.println("String Value: "+shortvalue);
-		System.out.println("String Value: "+bytevalue);
-		System.out.println("String Value: "+longvalue);
-		System.out.println("String Value: "+booleanvalue);
+		System.out.println("Integer Value: "+intvalue);
+		System.out.println("Double Value: "+doublevalue);
+		System.out.println("Float Point Value: "+floatvalue);
+		System.out.println("Short Value: "+shortvalue);
+		System.out.println("Byte Value: "+bytevalue);
+		System.out.println("Long Value: "+longvalue);
+		System.out.println("Boolean Value: "+booleanvalue);
 
 	}
 
