@@ -1,6 +1,6 @@
 package com.constructors;
 
-   public class Product {
+   class Product{
 	
 	String productName;
 	double productPrice;
@@ -12,8 +12,7 @@ package com.constructors;
 	}
 	Product(String name){
 		this(name,55000);
-		
-		
+			
 	}
 	Product(String name,double price){
 		this(name,price,2);
@@ -30,6 +29,7 @@ package com.constructors;
 	void display() {
 		
 		double totalCost=productPrice*quantity;
+		
 		System.out.println("Product Name is: "+productName);
 		System.out.println("Product Price is: "+productPrice);
 		System.out.println("Product Quantity is: "+quantity);
