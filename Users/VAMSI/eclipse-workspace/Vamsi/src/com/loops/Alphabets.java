@@ -1,0 +1,16 @@
+package com.loops;
+
+public class Alphabets {
+
+	public static void main(String[] args) {
+
+		System.out.println("*** Alphabets in Reverse Order ***");
+
+		for (char i = 'Z'; i >= 'A'; i--) {
+
+			System.out.print(i + " ");
+		}
+
+	}
+
+}
