@@ -1,6 +1,6 @@
 package com.constructors;
 
-   class Product{
+   public class Product{
 	
 	String productName;
 	double productPrice;

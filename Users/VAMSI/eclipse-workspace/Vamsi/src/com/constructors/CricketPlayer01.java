@@ -55,7 +55,10 @@ public class CricketPlayer01 {
 		
 		CricketPlayer01 obj=new CricketPlayer01(name,match,runs);
 		obj.Display();
+		
+		sc.close();
 
 	}
+	
 
 }

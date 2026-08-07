@@ -8,11 +8,11 @@ public class Mutiplication {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please Enter A Number: ");
-		int n = sc.nextInt();
+		int num = sc.nextInt();
 
 		for (int i = 1; i <= 10; i++) {
 
-			System.out.println(i * n);
+			System.out.println(num +" x " +i +" = " +(i* num));
 
 		}
 		sc.close();
