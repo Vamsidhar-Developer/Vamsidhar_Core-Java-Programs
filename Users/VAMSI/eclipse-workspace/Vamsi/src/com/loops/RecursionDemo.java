@@ -20,8 +20,5 @@ public class RecursionDemo {
 		}else {
 			return num * fact(num-1);
 		}
-		
-		
 	}
-
 }
