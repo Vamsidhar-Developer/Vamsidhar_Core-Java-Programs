@@ -11,8 +11,7 @@ public class ArrayTestDemo8 {
 		int[] array=new int[size];
 		
 		System.out.println("Please Enter the Elements of an Array: ");
-	 
-		
+	 	
 		for(int i=0;i<array.length;i++) {
 			array[i]=sc.nextInt();
 		}
@@ -25,7 +24,6 @@ public class ArrayTestDemo8 {
  		}
 		
 		sc.close();
- 		 
 		
 	}
 
