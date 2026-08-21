@@ -34,7 +34,7 @@ public class SimpleCalculator {
 		obj.sub(value1,value2);
 		obj.mul(value1,value2);
 		obj.div(value1,value2);
-		
+		sc.close();
 		
 	}
 

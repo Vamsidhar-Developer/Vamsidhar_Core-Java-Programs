@@ -48,6 +48,7 @@ public class BankDetails {
 	    BankDetails obj=new BankDetails(name,blnce);
 	    
 	    obj.show();
+	    sc.close();
 	    
 	    
 		} 
