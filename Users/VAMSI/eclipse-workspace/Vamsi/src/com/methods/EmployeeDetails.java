@@ -25,6 +25,7 @@ public class EmployeeDetails {
 		System.out.println("Enter the Employee Salary: ");
 		double salary=sc.nextDouble();
 		SalarySlip(name,salary);
+		sc.close();
 		
 		 
 	}
