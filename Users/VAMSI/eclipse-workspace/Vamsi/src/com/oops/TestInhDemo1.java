@@ -5,11 +5,8 @@ public class TestInhDemo1 {
 	String name = "Vamsi";
 	
 	
-	 @Override
-	protected void finalize() throws Throwable {
-		 System.out.println("Finalize method called");
-		super.finalize();
-	 }
+  
+ 
 		 @Override
 		public String toString() {
 			return "Employee Info[Id: "+id+ " Name: " +name;

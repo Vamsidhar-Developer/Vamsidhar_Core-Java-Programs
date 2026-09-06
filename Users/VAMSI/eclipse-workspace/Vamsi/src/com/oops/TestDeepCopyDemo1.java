@@ -16,9 +16,7 @@ class Student01{
 		this.sname = st1.sname;
 		this.address01 =new Address01 (st1.address01);
 	}
-	
-	
-	
+		
 }
 class Address01{
 	String city;
@@ -30,7 +28,6 @@ class Address01{
 	public Address01(Address01 address01) {
 		this.city = address01.city;
 	}
-	
 	
 	
 }
@@ -54,6 +51,7 @@ public class TestDeepCopyDemo1 {
 		 System.out.println(s2.sname);
 		 System.out.println(s2.address01.city);
 		 System.out.println("***********************");
+		 
 		 s2.sid=102;
 		 s2.sname="venugopal";
 		 s2.address01.city="Guntur";
@@ -68,9 +66,6 @@ public class TestDeepCopyDemo1 {
 		 System.out.println(s2.sname);
 		 System.out.println(s2.address01.city);
 		 System.out.println("***********************"); 
-		 
-		
-		
 		
  		 
 	}

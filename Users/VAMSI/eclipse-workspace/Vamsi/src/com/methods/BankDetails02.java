@@ -15,6 +15,8 @@ public class BankDetails02 {
 		BankDetails02 obj=new BankDetails02();
 		
 		Scanner sc=new Scanner(System.in);
+	 
+		
 		System.out.println("Enter Principle Amount: ");
 		double princ=sc.nextDouble();
 		System.out.println("Enter Rate of Interet : ");
@@ -22,6 +24,9 @@ public class BankDetails02 {
 		System.out.println("Enter Time: ");
 		int time=sc.nextInt();
 		obj.CalculateInterest(princ,rate,time);
+		
+		sc.close();
+		 
 		
 		 
 

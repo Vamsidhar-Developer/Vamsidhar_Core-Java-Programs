@@ -1,13 +1,12 @@
 package com.oops;
 
-import com.oops.TestDeepCopyDemo1.Address1;
 
 class Student implements Cloneable {
 
 	int sid;
 	String sname;
 	Address address;
-	public Address1 address1;
+	 
 
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
