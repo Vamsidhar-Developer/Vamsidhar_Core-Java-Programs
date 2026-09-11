@@ -32,7 +32,7 @@ public class LoanImpl implements Loan {
 		System.out.println("Please Enter your Mobile Number: ");
 		String phone = sc.next();
 
-		return phone.matches("[6-9][0-9]{9}");
+		return phone.matches("[6-9]{1}[0-9]{9}");
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class LoanImpl implements Loan {
 		System.out.println("Please Enter your AADHAR Number: ");
 		String aadhar = sc.next();
 
-		return aadhar.matches("[1-9][0-9]{11}");
+		return aadhar.matches("[1-9]{1}[0-9]{11}");
 	}
 
 	@Override
